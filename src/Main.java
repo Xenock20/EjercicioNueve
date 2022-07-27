@@ -6,6 +6,9 @@ public class Main {
         cliente.setNombre("Julian");
         cliente.setTelefono("+43-11-21324-43");
         cliente.setCredito(32432);
+        
+        System.out.println("Soy " + cliente.getNombre + ", tengo " + cliente.getEdad + " años y mi telefono es " + cliente.getTelefono
+                + " y mi credito disponible es " + cliente.getCredito + "€");
 
         //Inicializacio del objeto Trabajador
         Trabajador trabajador = new Trabajador();
@@ -13,6 +16,10 @@ public class Main {
         trabajador.setNombre("Jorge");
         trabajador.setTelefono("+63-11-61374-54");
         trabajador.setSalario((float) 833.3);
+        
+        System.out.println("Soy " + trabajador.getNombre + ", tengo " + trabajador.getEdad + " años y mi telefono es " + trabajador.getTelefono
+                + " y mi salario es de " + trabajador.getSalario + "€");
+
     }
 }
 
